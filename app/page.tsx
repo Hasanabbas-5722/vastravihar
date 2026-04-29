@@ -116,6 +116,151 @@ export default function Home() {
 
         </div>
       </div>
+
+      {/* Products Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 mb-10 text-center">Featured Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Product 1 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-clothing.png"
+                alt="Cotton T-Shirt"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Premium Cotton T-Shirt
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">Comfortable and stylish</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹1,299</p>
+            </div>
+          </div>
+          {/* Product 2 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-purse.png"
+                alt="Leather Handbag"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Genuine Leather Handbag
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">Elegant and spacious</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹4,999</p>
+            </div>
+          </div>
+          {/* Product 3 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-accessories.png"
+                alt="Stylish Watch"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Classic Analog Watch
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">Timeless design</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹2,499</p>
+            </div>
+          </div>
+          {/* Product 4 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-clothing.png"
+                alt="Denim Jeans"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Slim Fit Denim Jeans
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">Perfect fit for everyday wear</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹2,799</p>
+            </div>
+          </div>
+          {/* Product 5 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-accessories.png"
+                alt="Designer Sunglasses"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Designer Sunglasses
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">UV protection and style</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹1,899</p>
+            </div>
+          </div>
+          {/* Product 6 */}
+          <div className="group relative">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 relative h-80">
+              <Image
+                src="/cat-accessories.png"
+                alt="Running Shoes"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0"></span>
+                    Comfort Running Shoes
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">Lightweight and durable</p>
+              </div>
+              <p className="text-lg font-medium text-gray-900">₹3,499</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
